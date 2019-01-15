@@ -15,6 +15,6 @@ public class BaseController {
 
     @GetMapping("hello")
     public String hello(){
-        return "Hello!!!";
+        return "大家好，我是你们的朋友！";
     }
 }
