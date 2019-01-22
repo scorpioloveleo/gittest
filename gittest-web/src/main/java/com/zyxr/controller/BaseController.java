@@ -15,6 +15,6 @@ public class BaseController {
 
     @GetMapping("hello")
     public String hello(){
-        return "大家好，我是你们的朋友！";
+        return "服务器维护中，请稍后再试!";
     }
 }
